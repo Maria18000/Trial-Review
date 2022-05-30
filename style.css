@@ -1,0 +1,54 @@
+
+#header
+{
+    padding: 20px 10px;
+    margin: 5px 5px;
+    background-color: aliceblue;
+
+}
+#header-img
+{
+    float: left;
+    /* size: 10px; */
+    height:60px;
+    width:60px;
+}
+
+navbar
+{
+
+
+}
+#nav-bar li
+{
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    font-size: 18px;
+    color: #08090a;
+    padding-right: 3vh;
+}
+/* #nav-link
+{
+    float: right;
+} */
+
+#video{
+  padding: 5px;
+  margin: 10px;
+  background-color: black;
+
+}
+
+nav-bar{
+display:flex;
+}
+@media only screen and (min-width: 500px) {
+  nav-bar {
+    background-color: aliceblue;
+  }
+}
+.flex-container
+{
+  display:flex;
+}
